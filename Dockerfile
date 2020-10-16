@@ -10,3 +10,8 @@ RUN tlmgr update --self && \
     datatool \
     cleveref \
     todonotes
+
+RUN mkdir /github
+RUN mkdir /github/workspace
+
+WORKDIR /github/workspace
