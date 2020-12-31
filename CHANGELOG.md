@@ -1,5 +1,9 @@
 # Changelog
 
+
+# Unreleased
+- Added dependency `ifoddpage` and `relsize`.
+
 # 0.5.0
 
 - Added package `algorithm2e`, for pseudocode ability.

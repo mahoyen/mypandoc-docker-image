@@ -6,6 +6,8 @@ RUN tlmgr update --self && \
     tlmgr install \
     glossaries \
     mfirstuc \
+    ifoddpage \
+    relsize \
     algorithm2e \
     xfor  \
     datatool \
