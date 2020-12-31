@@ -1,10 +1,11 @@
 # Changelog
 
 
-# Unreleased
+# 0.5.1
 - Added dependency `ifoddpage` and `relsize`.
 - Added `docker-compose.yml` configured to run acceptane test.
 - Added acceptance test markdown file.
+- Added Github Workflow to run the acceptance test
 
 # 0.5.0
 
