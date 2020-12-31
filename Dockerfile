@@ -6,6 +6,7 @@ RUN tlmgr update --self && \
     tlmgr install \
     glossaries \
     mfirstuc \
+    algorithm2e \
     xfor  \
     datatool \
     cleveref \
