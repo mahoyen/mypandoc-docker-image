@@ -28,5 +28,5 @@ jobs:
         run: docker-compose up --build
       - uses: actions/upload-artifact@v2
         with:
-          name: acceptance_test_report
+          name: acceptance_test_report.pdf
           path: data/acceptance_test_report.pdf
