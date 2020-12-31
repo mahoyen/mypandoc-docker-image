@@ -1,0 +1,7 @@
+version: "3.9"  # optional since v1.27.0
+services:
+  mypandoc:
+    build: .
+    volumes:
+      - ./data:/github/workspace/
+    command: markdown_acceptance_test.md -o acceptance_test_report.pdf
