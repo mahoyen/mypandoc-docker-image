@@ -2,6 +2,7 @@
 header-includes:
   - \usepackage[ruled,vlined,linesnumbered]{algorithm2e}
   - \usepackage{todonotes}
+  - \usepackage{siunitx}
 ---
 # Acceptance test
 This document exists to test that everything is installed, and compiles
@@ -30,3 +31,7 @@ This document exists to test that everything is installed, and compiles
 }
 \caption{While loop with If/Else condition}
 \end{algorithm} 
+
+## SI Unit X
+
+\SI{123}{km/h}

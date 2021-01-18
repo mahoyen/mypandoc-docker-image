@@ -8,6 +8,7 @@ RUN tlmgr update --self && \
     mfirstuc \
     ifoddpage \
     relsize \
+    siunitx \
     algorithm2e \
     xfor  \
     datatool \

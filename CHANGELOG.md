@@ -1,6 +1,7 @@
 # Changelog
 
-
+# 0.6.0
+- Added SI Unit Package
 # 0.5.1
 - Added dependency `ifoddpage` and `relsize`.
 - Added `docker-compose.yml` configured to run acceptane test.
