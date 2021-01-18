@@ -3,7 +3,9 @@ header-includes:
   - \usepackage[ruled,vlined,linesnumbered]{algorithm2e}
   - \usepackage{todonotes}
   - \usepackage{siunitx}
+  - \usepackage[acronym]{glossaries}
 ---
+\newacronym{hello}{HELLO}{Hi, how are you?}
 # Acceptance test
 This document exists to test that everything is installed, and compiles
 
@@ -35,3 +37,7 @@ This document exists to test that everything is installed, and compiles
 ## SI Unit X
 
 \SI{123}{km/h}
+
+
+## Glossaries
+\acrfull{hello}
