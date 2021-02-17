@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.7.0
+- Added package for FloatBarrier
+
 ## 0.6.1
 - Added Tracklang dependency.
 

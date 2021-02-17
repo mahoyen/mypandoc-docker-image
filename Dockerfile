@@ -9,6 +9,7 @@ RUN tlmgr update --self && \
     mfirstuc \
     ifoddpage \
     relsize \
+    placeins \
     siunitx \
     algorithm2e \
     xfor  \

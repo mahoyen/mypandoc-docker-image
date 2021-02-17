@@ -4,6 +4,7 @@ header-includes:
   - \usepackage{todonotes}
   - \usepackage{siunitx}
   - \usepackage[acronym]{glossaries}
+  - \usepackage{placeins}
 ---
 \newacronym{hello}{HELLO}{Hi, how are you?}
 # Acceptance test
@@ -33,6 +34,12 @@ This document exists to test that everything is installed, and compiles
 }
 \caption{While loop with If/Else condition}
 \end{algorithm} 
+
+## FloatBarrier/Placein
+\begin{center}
+\includegraphics[width=10cm,trim={0 5cm 0 0},clip]{car_infront_NTNU.jpg}
+\end{center}
+\FloatBarrier
 
 ## SI Unit X
 
