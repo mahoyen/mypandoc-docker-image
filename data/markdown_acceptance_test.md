@@ -4,6 +4,7 @@ header-includes:
   - \usepackage{todonotes}
   - \usepackage{siunitx}
   - \usepackage[acronym]{glossaries}
+  - \usepackage[margin=2cm]{geometry}
   - \usepackage{placeins}
 ---
 \newacronym{hello}{HELLO}{Hi, how are you?}
